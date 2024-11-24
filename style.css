@@ -1,0 +1,30 @@
+#menuContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#menuContainer button {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#gameContainer {
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+}
